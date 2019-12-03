@@ -1,0 +1,159 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+body {
+    background-color: grey;
+}
+
+.Barra{
+    display:grid;
+    grid-template-columns: 80% 20%;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    
+}
+.Task{
+    margin-left: 57%;
+    margin-top: 1%;
+    font-size: x-large;
+    color: WHITE;
+    
+    
+}
+.New{
+    margin: 3%;
+    cursor: pointer ;
+    
+    
+    
+}
+.New :hover{
+    
+    background-color: grey;
+}
+
+.Newtask{
+    padding: 3%;
+    border: 1px solid white;
+    color:white;
+    text-align: center;
+   
+
+}
+.Barrac{
+    background-color: white;
+    height:4px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+#BToDo{
+    background-color: red;
+    height:4px;
+    width: 25%;
+}
+#BInPro{
+    background-color: tomato;
+    height:4px;
+    width: 25%;
+}
+#BRevi{
+    background-color: blue;
+    height:4px;
+    width: 25%;
+}
+#BComp{
+    background-color: green;
+    height:4px;
+    width: 25%;
+}
+.Colunas{
+    
+    width: 100%;
+    height: 91.9vh;
+    background-color: white;
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.ToDo{
+    border: 1px solid grey;
+    
+    margin: 8%;
+    background-color: white;
+
+}
+.InPro{
+    border: 1px solid grey;
+    
+    margin: 8%;
+    background-color: white;
+
+}
+.Review{
+    border: 1px solid grey;
+    
+    margin: 8%;
+    background-color: white;
+}
+
+.Comple{
+    border: 1px solid grey;
+    
+    margin: 8%;
+    background-color: white;
+}
+
+.tituloTD{
+    text-align: center;
+    
+    width: 100%;
+    height: 5vh;
+    background-color: red;
+}
+.tituloTD p{
+    color: white;
+    font-size: x-large;
+}
+
+.tituloIP{
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    background-color: tomato;
+}
+.tituloIP p{
+    color: white;
+    font-size: x-large;
+}
+
+.tituloRE{
+    text-align: center;
+    
+    width: 100%;
+    height: 5vh;
+    background-color: blue;
+   
+}
+.tituloRE p{
+    color: white;
+    font-size: x-large;
+}
+
+.tituloCO{
+    text-align: center;
+    
+    width: 100%;
+    height: 5vh;
+    background-color: green;
+    
+}
+.tituloCO p{
+    color: white;
+    font-size: x-large;
+}
