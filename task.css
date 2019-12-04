@@ -87,6 +87,7 @@
     margin-left: 4%;
     margin-right: 4%;
     background-color: white;
+    overflow: auto;
 
 }
 .InPro{
@@ -97,6 +98,7 @@
     margin-left: 4%;
     margin-right: 4%;  
     background-color: white;
+    overflow: auto;
 
 }
 .Review{
@@ -107,6 +109,7 @@
     margin-left: 4%;
     margin-right: 4%;    
     background-color: white;
+    overflow: auto;
 }
 
 .Comple{
@@ -117,6 +120,7 @@
     margin-left: 4%;
     margin-right: 4%;
     background-color: white;
+    overflow: auto;
 }
 
 .tituloTD{
@@ -180,12 +184,12 @@
 #NovaTarefa{
     
     position:absolute;
-    height: 50%;
+    height: 60%;
     width: 50%;
     left:25%;
     top: 20%;
     background-color: white;
-    border-radius: 2%;
+    border-radius: 11px;
     border: 1px solid grey;
 
 }
@@ -194,8 +198,8 @@
     color: white;
     background-color: grey;
     text-align: center;
-    border-top-left-radius: 2%;
-    border-top-right-radius: 2%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 #Titletask{
     font-size: x-large;
@@ -223,9 +227,32 @@
     top:48%;
     left: 3%;
     box-sizing: border-box;
-    height: 46%;
+    height: 44%;
     width: 94%;
     padding: 1%;
     resize: none; 
     font-size: smaller;
+}
+
+#exit{
+    font-size: large;
+    color: white;
+    position: absolute;
+    top: 0.1%;
+    left:92.8%;
+    border-top-right-radius: 10px;
+    padding: 2px 8px 2px 8px;
+    background-color: red;
+    cursor: pointer;
+}
+#Sub{
+    font-size: large;
+    color: white;
+    position: absolute;
+    top: 0.1%;
+    left:0.1%;
+    border-top-left-radius: 10px;
+    padding: 2px 8px 2px 8px;
+    background-color: green;
+    cursor: pointer;
 }
