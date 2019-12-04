@@ -42,7 +42,7 @@
 
 }
 .Barrac{
-    background-color: white;
+    background-color: grey;
     height:8px;
     text-align: center;
     display: flex;
@@ -53,22 +53,22 @@
 #BToDo{
     background-color: red;
     height:8px;
-    width: 25%;
+    
 }
 #BInPro{
     background-color: tomato;
     height:8px;
-    width: 25%;
+    
 }
 #BRevi{
     background-color: blue;
     height:8px;
-    width: 25%;
+    
 }
 #BComp{
     background-color: green;
     height:8px;
-    width: 25%;
+    
 }
 .Colunas{
     
@@ -81,7 +81,7 @@
 
 .ToDo{
     border: 1px solid grey;
-    
+    border-radius: 10px;
     margin-top: 15%;
     margin-bottom: 25%;
     margin-left: 4%;
@@ -91,25 +91,27 @@
 }
 .InPro{
     border: 1px solid grey;
-    
+    border-radius:10px;
     margin-top: 15%;
     margin-bottom: 25%;
     margin-left: 4%;
-    margin-right: 4%;    background-color: white;
+    margin-right: 4%;  
+    background-color: white;
 
 }
 .Review{
     border: 1px solid grey;
-    
+    border-radius:10px;
     margin-top: 15%;
     margin-bottom: 25%;
     margin-left: 4%;
-    margin-right: 4%;    background-color: white;
+    margin-right: 4%;    
+    background-color: white;
 }
 
 .Comple{
     border: 1px solid grey;
-    
+    border-radius:10px;
     margin-top: 15%;
     margin-bottom: 25%;
     margin-left: 4%;
@@ -119,52 +121,49 @@
 
 .tituloTD{
     text-align: center;
-    
+    color: white;
+    font-size: x-large;
     width: 100%;
     height: 5vh;
     background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-.tituloTD p{
-    color: white;
-    font-size: x-large;
-}
+
 
 .tituloIP{
     text-align: center;
+    color: white;
+    font-size: x-large;
     width: 100%;
     height: 5vh;
     background-color: tomato;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-.tituloIP p{
-    color: white;
-    font-size: x-large;
-}
-
 .tituloRE{
     text-align: center;
-    
+    color: white;
+    font-size: x-large;   
     width: 100%;
     height: 5vh;
     background-color: blue;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
    
 }
-.tituloRE p{
-    color: white;
-    font-size: x-large;
-}
-
 .tituloCO{
     text-align: center;
-    
+    color: white;
+    font-size: x-large;
     width: 100%;
     height: 5vh;
     background-color: green;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     
 }
-.tituloCO p{
-    color: white;
-    font-size: x-large;
-}
+
 #Nova{
     display:none;
 }
