@@ -68,7 +68,7 @@ $(document).ready(function(){
 	$titulo.attr("id", titleValues);
 	$titulo.attr("class", "tarefa");
 	$("#ConteudoTD").append($titulo); 
-	barraD++;console.log(barraD);
+	barraD++;
 	calcularBARRA();	
 })	
 }
