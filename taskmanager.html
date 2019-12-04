@@ -20,25 +20,29 @@
             <div id="BRevi"></div>
             <div id="BComp"></div>
         </div>
-        <div class="Colunas">
+        <div class="Colunas" id="Colunas">
             <div class="ToDo" id="ToDo">
-                <header class="tituloTD">To do</header> 
+                <header class="tituloTD">To do</header>
+                <div class="Conteudo" id="ConteudoTD"></div>
                 
             </div>
             <div class="InPro" id="InPro">
                 <header class="tituloIP">
                     In progress
                 </header>
+                <div class="Conteudo" id="ConteudoIP"></div>
             </div>
             <div class="Review" id="Review">
                 <header class="tituloRE">
                     Review
                 </header>
+                <div class="Conteudo" id="ConteudoRV"></div>
             </div>
             <div class="Comple" id="Comple">
                 <header class="tituloCO">
                     Complete
                 </header>
+                <div class="Conteudo" id="ConteudoCP"></div>
             </div>
         </div>
            
@@ -49,14 +53,14 @@
                     <div id="Titletask">Title</div>
                     <input type="text" name="Title" id="Title" placeholder="Tipe your title here...">
                     <div id="Descriptask">Description</div>
-                    <textarea id="Description" placeholder="Tipe your description here..."></textarea> 
+                    <input type="text" name="Description" id="Description" placeholder="Tipe your description here...">
                     <div id="Sub">Submit</div>
                     <div id="exit">exit</div>
             </div>
         </div>
             
         </div>     
-
+        <script src="jquery.js"></script>
         <script src="task.js"></script>
     </body>
 
