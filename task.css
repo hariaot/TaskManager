@@ -21,7 +21,8 @@
     
 }
 .New{
-    margin: 3%;
+    margin: 4% 4% 4% 40%;
+    
     cursor: pointer ;
     
     
@@ -33,6 +34,7 @@
 }
 
 .Newtask{
+    position: relative;
     padding: 3%;
     border: 1px solid white;
     color:white;
@@ -163,4 +165,37 @@
 .tituloCO p{
     color: white;
     font-size: x-large;
+}
+#Nova{
+    display:block;
+}
+#Caixa{
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+    top: 0%;
+    background-color:grey;
+    opacity: 0.8;
+}
+#NovaTarefa{
+    
+    position:absolute;
+    height: 50%;
+    width: 50%;
+    left:25%;
+    top: 20%;
+    background-color: white;
+    border-radius: 2%;
+    border: 1px solid grey;
+
+}
+#NovaT{
+    font-size: x-large;
+    color: white;
+    background-color: grey;
+    text-align: center;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
 }
