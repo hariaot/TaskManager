@@ -26,7 +26,6 @@
     cursor: pointer ;
     
     
-    
 }
 .New :hover{
     
@@ -198,4 +197,36 @@
     text-align: center;
     border-top-left-radius: 2%;
     border-top-right-radius: 2%;
+}
+#Titletask{
+    font-size: x-large;
+    color: grey;
+    position: absolute;
+    left: 3%;
+    top: 15%;
+}
+#Descriptask{
+    font-size: x-large;
+    color: grey;
+    position: absolute;
+    left: 3%;
+    top: 38%;
+}
+#Title{
+    position: absolute;
+    top: 25%;
+    left: 3%;
+    height: 10%;
+    width: 92%;
+}
+#Description{
+    position:absolute;
+    top:48%;
+    left: 3%;
+    box-sizing: border-box;
+    height: 46%;
+    width: 94%;
+    padding: 1%;
+    resize: none; 
+    font-size: smaller;
 }
