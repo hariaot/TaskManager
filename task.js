@@ -15,7 +15,8 @@ $("#Sub").on('click', function(){
 
 function new_div(){
 $(document).ready(function(){
-	
+	barra++;barraT++;
+	calcularBARRA();
 	var titleValues = $("#Title").val();
 	var descriValues = $("#Description").val();
 	var descric={
@@ -35,19 +36,20 @@ $(document).ready(function(){
 	var $titulo = $("<div>", tituloc);
 	$titulo.html(titleValues);
 
-	$("#ConteudoTD").append($titulo); 
-	barra++;barraT++;
-	calcularBARRA();	
+	$("#ConteudoTD").append($titulo); 	
+	barraT--;
 	$("#titulo1").on('click', function(){
 	$("#ConteudoIP").append($titulo);
-	barraT--;barraP++;
+	barraP++;
 	calcularBARRA();	
+	barraP--;
 	$("#titulo1").on('click', function(){
 	$("#ConteudoRV").append($titulo);
-	barraP--;barraR++;
+	barraR++;
 	calcularBARRA();	
+	barraR--;
 	$("#titulo1").on('click', function(){
-	barraR--;barraC++;
+	barraC++;
 	calcularBARRA();	
 	$("#ConteudoCP").append($titulo);
 	
@@ -61,9 +63,9 @@ function calcularBARRA(){
 	let tamanho = (barraT * 100)/barra;
 	$('#BToDo').css("width",`${tamanho}%`);
 	let tamanho1 = (barraP * 100)/barra;
-	$('#BToDo').css("width",`${tamanho1}%`);
+	$('#BInPro').css("width",`${tamanho1}%`);
 	let tamanho2 = (barraR * 100)/barra;
-	$('#BToDo').css("width",`${tamanho2}%`);
+	$('#BRevi').css("width",`${tamanho2}%`);
 	let tamanho3 = (barraC * 100)/barra;
-	$('#BToDo').css("width",`${tamanho3}%`);
+	$('#BComp').css("width",`${tamanho3}%`);
 };
