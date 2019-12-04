@@ -20,14 +20,14 @@
     
     
 }
-.New{
+#New{
     margin: 4% 4% 4% 40%;
     
     cursor: pointer ;
     
     
 }
-.New :hover{
+#New :hover{
     
     background-color: grey;
 }
@@ -166,7 +166,7 @@
     font-size: x-large;
 }
 #Nova{
-    display:block;
+    display:none;
 }
 #Caixa{
     
