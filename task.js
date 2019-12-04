@@ -7,6 +7,8 @@ let buttom1 = document.getElementById("New").addEventListener("click", function(
 
 let buttom2 = document.getElementById("exit").addEventListener("click", function(){
 	document.getElementById("Nova").style.display = "none";
+	addElement();
 
 })
+
 
